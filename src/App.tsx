@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <div>
-      <div>
+      <div style={{ marginBottom: '16px' }}>
         <label>
           Number
           <input type="number" />;
@@ -9,7 +9,7 @@ export default function App() {
       </div>
       <div>
         <label>
-          Number
+          tel
           <input type="tel" />;
         </label>
       </div>
