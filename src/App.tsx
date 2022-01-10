@@ -2,16 +2,16 @@ export default function App() {
   return (
     <div>
       <div style={{ marginBottom: '16px' }}>
-        <label>
-          Number
-          <input type="number" />;
-        </label>
+        <p>Number</p>
+        <input type="number" />
       </div>
       <div>
-        <label>
-          tel
-          <input type="tel" />;
-        </label>
+        <p>tel</p>
+        <input type="tel" />
+      </div>
+      <div>
+        <p>pattern</p>
+        <input inputMode="decimal" pattern="[0-9]*" />
       </div>
     </div>
   );

@@ -1,9 +1,12 @@
 @import 'styles/fonts.scss', 'styles/normalize.scss', 'styles/global.scss',
   'styles/typography.scss', 'styles/indents.scss', 'styles/utils.scss';
 
+input {
+  padding: 8px;
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
-  padding: 8px;
 }
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
