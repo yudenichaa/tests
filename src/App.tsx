@@ -7,6 +7,12 @@ export default function App() {
           <input type="number" />;
         </label>
       </div>
+      <div>
+        <label>
+          Number
+          <input type="tel" />;
+        </label>
+      </div>
     </div>
   );
 }
