@@ -5,11 +5,11 @@ export default function App() {
         <p>Number</p>
         <input type="number" />
       </div>
-      <div>
+      <div style={{ marginBottom: '16px' }}>
         <p>tel</p>
         <input type="tel" />
       </div>
-      <div>
+      <div style={{ marginBottom: '16px' }}>
         <p>pattern</p>
         <input inputMode="decimal" pattern="[0-9]*" />
       </div>
