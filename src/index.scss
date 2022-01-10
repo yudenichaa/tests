@@ -1,0 +1,11 @@
+@import 'styles/fonts.scss', 'styles/normalize.scss', 'styles/global.scss',
+  'styles/typography.scss', 'styles/indents.scss', 'styles/utils.scss';
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
